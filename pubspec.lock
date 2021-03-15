@@ -335,12 +335,10 @@ packages:
   flame:
     dependency: "direct main"
     description:
-      path: "."
-      ref: null-safety
-      resolved-ref: c56bec23174915c1b6a6bdd0b95c69c4e4461497
-      url: "https://github.com/flame-engine/flame"
-    source: git
-    version: "1.0.0-rc7-nullsafety.0"
+      name: flame
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0-rc8"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -352,7 +350,7 @@ packages:
       name: flutter_bloc
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "7.0.0-nullsafety.4"
+    version: "7.0.0-nullsafety.5"
   flutter_cache_manager:
     dependency: "direct main"
     description:
@@ -366,21 +364,21 @@ packages:
       name: flutter_facebook_auth
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.0-nullsafety.1"
+    version: "3.0.0+1"
   flutter_facebook_auth_platform_interface:
     dependency: transitive
     description:
       name: flutter_facebook_auth_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0-nullsafety.2"
+    version: "2.0.0"
   flutter_facebook_auth_web:
     dependency: transitive
     description:
       name: flutter_facebook_auth_web
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0-nullsafety.1"
+    version: "2.0.0"
   flutter_localizations:
     dependency: "direct main"
     description: flutter
@@ -684,7 +682,7 @@ packages:
       name: shared_preferences
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.3"
+    version: "2.0.4"
   shared_preferences_linux:
     dependency: transitive
     description:
